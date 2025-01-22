@@ -68,7 +68,7 @@ npm run preview``
 ## 🗂️ Estrutura do Projeto
 Aqui está uma visão geral da estrutura do projeto:
 
-``Copy
+Copy
 src/
   assets/
     images/          # Imagens utilizadas no projeto
@@ -78,7 +78,7 @@ src/
   App.tsx            # Componente principal da aplicação
   main.tsx           # Ponto de entrada da aplicação
   index.css          # Estilos globais
-public/              # Arquivos públicos (se houver)``
+public/              # Arquivos públicos (se houver)
 
 
 ---
