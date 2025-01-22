@@ -70,15 +70,14 @@ Aqui está uma visão geral da estrutura do projeto:
 
 Copy
 - src/
- - assets/
-  -  images/          # Imagens utilizadas no projeto
-   - videos/          # Vídeos utilizados no projeto
- - components/        # Componentes React reutilizáveis
-  -  GallerySection/  # Componente da galeria de fotos
+    - assets/
+        -  images/          # Imagens utilizadas no projeto
+         - videos/          # Vídeos utilizados no projeto
+    - components/        # Componentes React reutilizáveis
+        -  GallerySection/  # Componente da galeria de fotos
   - App.tsx            # Componente principal da aplicação
   - main.tsx           # Ponto de entrada da aplicação
   - index.css          # Estilos globais
-- public/              # Arquivos públicos (se houver)
 
 
 ---
