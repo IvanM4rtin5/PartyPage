@@ -1,7 +1,7 @@
 import React from 'react';
-import dino  from './assets/dino.png';
-import { Calendar, MapPin, Phone, Heart } from 'lucide-react';
-import partyVideo from './assets/Vídeo.mp4';
+import dino  from './assets/image/dino.png';
+import { Calendar, MapPin, Phone, Heart, Contact } from 'lucide-react';
+import partyVideo from './assets/video/Vídeo.mp4';
 import  GallerySection  from './components/GallerySection'
 
 React;
@@ -11,10 +11,6 @@ const activities = [
   {
     title: "Caça aos ovos de dinossauro",
     description: "Uma aventura emocionante procurando ovos pré-históricos"
-  },
-  {
-    title: "Piscina de bolinhas jurássica",
-    description: "Mergulhe em um mar de diversão colorida"
   },
   {
     title: "Oficinas de pintura",
@@ -122,6 +118,10 @@ function App() {
           <p className="text-xl mb-6">
             Esperamos que você se divirta muito e aproveite esta aventura jurássica conosco!
           </p>
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <Contact className="w-6 h-6" />
+              <span style={{ fontSize: '20px'}}>Ivan Martins</span>
+          </div>
           <div className="flex items-center justify-center gap-2">
             <Phone className="w-5 h-5" />
             <span>WhatsApp: (82) 99829-6640</span>

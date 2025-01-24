@@ -1,8 +1,8 @@
 import { useState } from "react";
-import benicio from '../../assets/benicio.jpg';
-import benicio1 from '../../assets/benicio2.jpg';
-import benicio2 from '../../assets/benicio3.jpg';
-import fazenda from '../../assets/fazendaDino.jpg';
+import benicio from '../../assets/image/benicio.jpg';
+import benicio1 from '../../assets/image/benicio2.jpg';
+import benicio2 from '../../assets/image/benicio3.jpg';
+import fazenda from '../../assets/image/fazendaDino.jpg';
 
 interface GalleryImage {
   url: string;
@@ -26,11 +26,11 @@ const GallerySection = () => {
   const galleryImages: GalleryImage[] = [
     {
       url: benicio,
-      caption: "Benício e seu primeiro dinossauro de brinquedo"
+      caption: "Benício e sua fantasia de dinossauro !"
     },
     {
       url: benicio2,
-      caption: "Nosso aventureiro jurássico explorando o quintal!"
+      caption: "Nosso aventureiro jurássico explorando !"
     },
     {
       url: benicio1,
@@ -38,7 +38,7 @@ const GallerySection = () => {
     },
     {
       url: fazenda, 
-      caption: "Benício e sua coleção de ovos de dinossauro"
+      caption: "Benício e sua coleção  de dinossauro"
     }
   ];
 
